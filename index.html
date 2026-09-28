@@ -1,0 +1,242 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>GJ Govt Job Prep Pro</title><link rel="manifest" href="manifest.json"><meta name="theme-color" content="#4c5cf0"><link rel="icon" href="icon-192.png"><link rel="apple-touch-icon" href="icon-192.png">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f3f5fb;--card:#fff;--tx:#161a2b;--mu:#6b7186;--ac:#4c5cf0;--ac2:#9b5cf6;--bd:#e4e7f2;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1017;--card:#181c29;--tx:#eceefa;--mu:#98a0ba;--ac:#7c8bff;--bd:#272d40}}
+:root[data-theme="dark"]{--bg:#0e1017;--card:#181c29;--tx:#eceefa;--mu:#98a0ba;--ac:#7c8bff;--bd:#272d40}
+body{background:var(--bg);color:var(--tx);font-family:Poppins,system-ui,sans-serif;font-size:14px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:18px;box-shadow:0 4px 18px rgba(30,40,90,.06)}
+.mu{color:var(--mu)}.grad{background:linear-gradient(135deg,var(--ac),var(--ac2));color:#fff}
+.btn{border:1px solid var(--bd);background:var(--card);color:var(--tx);padding:7px 13px;border-radius:12px;cursor:pointer;font-size:13px;transition:.15s}
+.btn:hover{transform:translateY(-1px);border-color:var(--ac)}.btn.p{background:var(--ac);border-color:var(--ac);color:#fff}
+input,select,textarea{background:var(--card);color:var(--tx);border:1px solid var(--bd);border-radius:12px;padding:8px 11px;font:inherit;max-width:100%}
+.tag{font-size:11px;padding:2px 9px;border-radius:99px;background:rgba(124,139,255,.16);color:var(--ac);font-weight:600}
+.nav button{padding:8px 16px;border-radius:99px;font-weight:600;color:var(--mu);white-space:nowrap}.nav button.on{background:var(--ac);color:#fff}
+.sec{display:none}.sec.on{display:block}dialog{background:var(--card);color:var(--tx);border:1px solid var(--bd);border-radius:20px;padding:0;max-width:560px;width:92%}
+dialog::backdrop{background:rgba(0,0,0,.5)}.ic{width:46px;height:46px;border-radius:14px;display:grid;place-items:center;font-size:24px}
+.done span.t{text-decoration:line-through;color:var(--mu)}.bar{height:9px;border-radius:9px;background:var(--bd);overflow:hidden}.bar i{display:block;height:100%}
+a{color:var(--ac)}
+</style></head><body>
+<div class="max-w-5xl mx-auto p-4">
+<!-- HERO -->
+<div class="grad rounded-3xl p-5 md:p-7 relative overflow-hidden">
+ <svg class="absolute right-0 bottom-0 opacity-30 w-64 h-40 md:w-80 md:h-52" viewBox="0 0 320 200" fill="none" stroke="#fff" stroke-width="3"><rect x="150" y="50" width="130" height="90" rx="10"/><path d="M130 160h170M200 140v20"/><circle cx="60" cy="60" r="26"/><path d="M60 34v-14M60 100V86M34 60H20M100 60H86M42 42l-9-9M87 87l9 9"/><path d="M180 90l20 16 40-40" stroke-width="6" stroke-linecap="round"/></svg>
+ <div class="flex justify-between items-start relative">
+  <div><div class="text-xs opacity-80">Gujarat Govt Jobs · Tech first ⭐</div><h1 class="text-2xl md:text-3xl font-bold">GJ Job Prep Pro</h1>
+  <p class="text-sm opacity-90 mt-1 max-w-md" id="qt"></p></div>
+  <div class="text-right"><button class="btn" onclick="th()">🌓</button><div class="text-xs mt-2 opacity-90" id="wx">🌤️ Rajkot…</div></div></div>
+ <div class="grid grid-cols-3 gap-2 mt-5 relative text-center">
+  <div class="rounded-2xl bg-white/20 p-2"><div class="text-xl font-bold" id="k1">0</div><div class="text-[11px]">Tracked exams</div></div>
+  <div class="rounded-2xl bg-white/20 p-2"><div class="text-xl font-bold" id="k2">0</div><div class="text-[11px]">Tasks done</div></div>
+  <div class="rounded-2xl bg-white/20 p-2"><div class="text-xl font-bold" id="k3">–</div><div class="text-[11px]" id="k3l">Next exam</div></div></div>
+</div>
+<!-- NAV -->
+<div class="nav flex gap-2 my-4 overflow-x-auto sticky top-0 py-2 z-10" style="background:var(--bg);top:env(safe-area-inset-top,0px)">
+ <button class="on" onclick="tab(0,this)">📚 Exams</button><button onclick="tab(1,this)">✅ Tasks</button><button onclick="tab(2,this)">🧰 Tools</button><button onclick="tab(3,this)">📈 Progress</button><button onclick="tab(4,this)">🔔 Live Jobs</button><button onclick="tab(5,this)">🗄️ Previous</button></div>
+
+<div class="sec on" id="s0"><div class="card p-3 mb-3"><div class="flex gap-2 flex-wrap"><input id="q" placeholder="🔍 Search any exam / post / board…" class="flex-1 min-w-[160px]" oninput="ex()">
+<select id="f" onchange="ex()"><option value="">All types</option><option value="tech">Tech ⭐</option><option value="non">Non-tech</option><option value="fav">Tracked ★</option></select>
+<select id="sf" onchange="ex()"><option value="">All status</option><option value="now">🟢 Current</option><option value="soon">🟡 Upcoming</option><option value="old">⚪ Old</option></select>
+<select id="bf" onchange="ex()"><option value="">All branches</option><option value="cs">💻 Computer / IT</option><option value="ec">📡 Electronics & Comm.</option><option value="el">⚡ Electrical</option><option value="ci">🏗️ Civil</option><option value="me">⚙️ Mechanical</option><option value="oth">🔬 Other technical / science</option></select></div>
+<div class="flex gap-2 flex-wrap items-center mt-2 text-xs"><span id="ecnt" class="tag"></span><span class="mu flex-1" id="lu"></span><input id="fu" placeholder="Live feed JSON URL (optional)" style="width:210px" onchange="svf()"><button class="btn" onclick="rf(1)">⟳ Refresh</button></div></div>
+<div id="el" class="grid md:grid-cols-2 gap-3"></div></div>
+
+<div class="sec" id="s1">
+<div class="flex gap-2 mb-3 flex-wrap"><button class="btn p" id="m0" onclick="md(0)">✅ Tasks</button><button class="btn" id="m1" onclick="md(1)">📝 Notes</button><button class="btn ml-auto" onclick="bk()">💾 Backup</button></div>
+<div id="tv"><div class="card p-3"><input id="t" class="w-full" placeholder="Add task… e.g. Revise networking !high #tech @tomorrow *weekly" onkeydown="if(event.key=='Enter')add()"><div class="mu text-xs mt-2">Shortcuts: <b>!high</b> <b>!low</b> · <b>#tag</b> · <b>@today</b> <b>@tomorrow</b> <b>@2026-10-05</b> · <b>*daily</b> <b>*weekly</b> <b>*monthly</b> (repeats automatically)</div></div>
+<div class="flex gap-2 flex-wrap my-3" id="pt"></div><div class="flex gap-2 mb-3"><input id="ts" placeholder="🔍 Search tasks" class="flex-1" oninput="tl()"><select id="tg2" onchange="tl()"></select></div><div id="tl" class="grid gap-2"></div></div>
+<div id="nv" class="hidden"><div class="card p-3 grid gap-2"><input id="nt2" placeholder="Note title"><textarea id="nb2" rows="3" placeholder="Formulas, shortcuts, important points…"></textarea>
+<div class="flex gap-2"><select id="nc2"><option value="0">Yellow</option><option value="1">Blue</option><option value="2">Green</option><option value="3">Pink</option><option value="4">Violet</option></select><button class="btn p" onclick="na()">＋ Save note</button></div></div>
+<input id="ns" placeholder="🔍 Search notes" class="w-full my-3" oninput="nl()"><div id="nlst" class="grid md:grid-cols-2 gap-3"></div></div></div>
+<div class="sec" id="s2"><div class="grid md:grid-cols-2 gap-3">
+ <div class="card p-4 text-center"><h3 class="font-semibold mb-1">🍅 Pomodoro Focus</h3><div class="text-5xl font-bold my-3" id="tm">25:00</div>
+  <div class="flex gap-2 justify-center"><button class="btn p" onclick="pom()">Start / Pause</button><button class="btn" onclick="pomR(25)">25m</button><button class="btn" onclick="pomR(50)">50m</button><button class="btn" onclick="pomR(5)">Break 5m</button></div><div class="mu text-xs mt-2" id="pc">Sessions today: 0</div></div>
+ <div class="card p-4"><h3 class="font-semibold mb-2">🔎 Topic Lookup <span class="tag">AI full answer</span></h3>
+  <div class="flex gap-2"><input id="wq" class="flex-1" placeholder="e.g. Microstrip antenna, OSI model" onkeydown="if(event.key=='Enter')wk()"><button class="btn p" onclick="wk()">Go</button></div><div id="wr" class="mt-3 text-sm mu">Type any topic: get a full-screen study answer (concepts, tips, practice MCQs).</div></div>
+ <div class="card p-4 md:col-span-2"><h3 class="font-semibold mb-2">🔗 Official portals</h3><div class="flex flex-wrap gap-2" id="lk"></div></div>
+<div class="card p-4 md:col-span-2"><h3 class="font-semibold mb-1">📥 Call letters, results & answer keys</h3><div class="mu text-xs mb-2">The official site asks for your confirmation number + date of birth, so the download happens there. Tap a board to open its page.</div><div class="flex flex-wrap gap-2 mb-3" id="cl"></div>
+<b class="text-sm">🔐 My application numbers <span class="mu text-xs">(saved only in this browser)</span></b><div class="flex flex-wrap gap-2 my-2"><input id="vn" placeholder="Exam name" class="flex-1 min-w-[130px]"><input id="vc" placeholder="Confirmation no."><button class="btn p" onclick="va()">Save</button></div><div id="vl" class="grid gap-1 text-sm"></div></div></div></div>
+
+<div class="sec" id="s3"><div class="grid md:grid-cols-2 gap-3">
+ <div class="card p-4"><b>Task completion</b><div class="bar mt-2"><i class="grad" id="pb"></i></div><div class="mu text-xs mt-1" id="ps"></div>
+  <b class="block mt-4 mb-1">Last 7 days</b><svg id="ch" viewBox="0 0 280 100" class="w-full"></svg></div>
+ <div class="card p-4" id="ss"></div></div></div>
+<div class="sec" id="s4"><div class="card p-3 mb-3 text-xs mu">📌 Snapshot updated <b>28 Sep 2026</b> from public job portals. Always confirm on the official notification (OJAS).
+<a target="_blank" rel="noopener" href="https://ojas.gujarat.gov.in">Open live OJAS ↗</a></div>
+<div class="flex gap-2 mb-3"><select id="lf" onchange="lv()"><option value="">All</option><option value="tech">Tech ⭐</option><option value="open">Open now</option></select></div><div id="ll" class="grid md:grid-cols-2 gap-3"></div></div>
+
+<div class="sec" id="s5"><h3 class="font-semibold mb-2">✅ Recent results, call letters & answer keys</h3><div id="ar" class="grid md:grid-cols-2 gap-2 mb-5"></div>
+<h3 class="font-semibold mb-2">📄 Previous papers & archives</h3><div class="flex flex-wrap gap-2 mb-5" id="pl"></div>
+<div class="card p-4"><h3 class="font-semibold mb-2">📝 My paper practice log</h3><div class="flex flex-wrap gap-2"><input id="pn2" placeholder="Paper (e.g. GPRB PSI 2023)" class="flex-1 min-w-[150px]"><input id="ps2" type="number" placeholder="Score /100" style="width:110px"><button class="btn p" onclick="lg()">Add</button></div><div id="pg2" class="mt-3 grid gap-1 text-sm"></div></div></div>
+
+<p class="mu text-xs text-center mt-6">Verify all dates & eligibility on the official notification. Data is saved in your browser.</p></div>
+
+<div id="fs" class="fixed inset-0 z-50 hidden overflow-auto" style="background:var(--bg)"><div class="max-w-3xl mx-auto p-5" style="padding-top:calc(16px + env(safe-area-inset-top,0px))"><div class="flex gap-2 items-center mb-4 sticky top-0 py-2" style="background:var(--bg)"><b id="ft" class="flex-1 text-lg"></b><a id="fg" class="btn" target="_blank" rel="noopener">Google ↗</a><button class="btn p" onclick="$('fs').classList.add('hidden')">✕ Close</button></div><div id="fb" class="leading-relaxed"></div></div></div>
+<dialog id="dg"></dialog>
+<script>
+const $=id=>document.getElementById(id);
+const E=[
+["📡","Wireless PSI (Police)","Gujarat Police Recruitment Board","tech","Degree/Diploma in Electronics / Communication / IT / Computer Engg (check notification)","Written test + physical test + interview (typical)","Digital & analog electronics, communication systems, networking, wireless/RF, computer basics, GK, reasoning, Gujarati/English","https://gprb.gujarat.gov.in","#4c5cf0,#22b8cf"],
+["⚡","GETCO – Asst. Engineer (Electronics/Comm.)","GETCO / GUVNL","tech","B.E./B.Tech Electronics, Communication or Electrical (check)","Online MCQ: technical + aptitude","Circuit theory, control systems, power systems, SCADA, microprocessors, communication","https://www.getco.co.in","#f59f00,#f76707"],
+["💻","GSSSB – Computer Programmer / System Analyst","GSSSB","tech","B.E./B.Tech CE/IT or MCA (check post)","Prelim MCQ + mains","Programming, DBMS, OS, networks, DSA, software engg, web tech","https://gsssb.gujarat.gov.in","#7048e8,#4c5cf0"],
+["🧠","GPSC – IT / Computer Class 1-2, Asst. Prof. (CE)","GPSC","tech","M.E./M.Tech or B.E. as per post","Prelim + mains / interview by post","Core CS subjects + GK + Gujarat-specific","https://gpsc.gujarat.gov.in","#ae3ec9,#7048e8"],
+["🔧","GSSSB – JE / AE (Electrical/Electronics)","GSSSB / GPSC","tech","Diploma/Degree in respective branch","MCQ: technical + GK","Electrical & electronics fundamentals, machines, measurements","https://gsssb.gujarat.gov.in","#12b886,#22b8cf"],
+["⚖️","High Court – Systems Officer / Asst. Programmer","Gujarat High Court","tech","Degree in CS/IT/Computer Applications (check)","Written + computer skill test + interview","Programming, DB, networks, computer fundamentals","https://gujarathighcourt.nic.in","#495057,#4c5cf0"],
+["🏛️","GPSC Class 1-2 (GAS / Dy. Collector)","GPSC","non","Any graduate","Prelim + mains + interview","History, polity, economy, geography, Gujarat GK, essay","https://gpsc.gujarat.gov.in","#e8590c,#f03e3e"],
+["🗂️","GSSSB – Clerk / Sr. Clerk (Class 3)","GSSSB","non","Graduate + computer skills","Prelim MCQ + mains descriptive","GK, reasoning, maths, Gujarati/English, computer","https://gsssb.gujarat.gov.in","#1c7ed6,#22b8cf"],
+["🏘️","Talati-cum-Mantri","GPSSB","non","Graduate + computer proficiency","MCQ","GK, panchayat rules, reasoning, language","https://gpssb.gujarat.gov.in","#37b24d,#94d82d"],
+["👮","Police PSI (Armed/Unarmed) & LRD","GPRB","non","Graduate (PSI) / 12th (LRD)","Physical + written","Law basics, GK, reasoning, Gujarati","https://gprb.gujarat.gov.in","#364fc7,#1c7ed6"],
+["🎓","TET / TAT (Teaching)","Gujarat State Exam Board","non","Educational qualification as per level","MCQ","Child psychology, pedagogy, subject, language","https://www.sebexam.org","#d6336c,#f76707"]];
+const Q=["Small daily steps beat rare big efforts.","Consistency today = selection tomorrow.","Solve one more MCQ set before you sleep.","Revise what you studied yesterday first.","Your rank is built by this week's routine."];
+const L=(k,d)=>{try{return JSON.parse(localStorage.getItem(k))||d}catch(e){return d}},S=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}};
+let fav=L('fav',{}),dt=L('dt',{}),nt=L('nt',{}),T=L('tk',[]),per='daily',pomN=L('pn',{});
+const today=new Date().toISOString().slice(0,10);
+$('qt').textContent='“'+Q[new Date().getDate()%Q.length]+'”';
+function th(){let r=document.documentElement;r.dataset.theme=(r.dataset.theme=='dark')?'light':'dark'}
+function tab(i,b){document.querySelectorAll('.sec').forEach((s,j)=>s.classList.toggle('on',i==j));document.querySelectorAll('.nav button').forEach(x=>x.classList.remove('on'));b.classList.add('on');if(i==3)pg()}
+const cd=d=>{if(!d)return'';let n=Math.ceil((new Date(d)-new Date(today))/864e5);return n<0?'Passed':n==0?'Today!':n+' days left'};
+function tr(i){fav[i]=!fav[i];S('fav',fav);ex()}
+function kp(){$('k1').textContent=Object.values(fav).filter(Boolean).length;$('k2').textContent=T.filter(a=>a.ok).length;
+let up=X.map((e,i)=>[e.n,dt[i]||e.ed]).filter(a=>a[1]&&a[1]>=today).sort((a,b)=>a[1]>b[1]?1:-1)[0];$('k3').textContent=up?cd(up[1]).replace(' days left','d'):'–';$('k3l').textContent=up?up[0].slice(0,18):'Next exam'}
+function pg(){let n=T.length,k=T.filter(a=>a.ok).length;$('pb').style.width=(n?k/n*100:0)+'%';$('ps').textContent=k+' of '+n+' tasks done';
+let days=[...Array(7)].map((_,i)=>{let d=new Date(Date.now()-(6-i)*864e5).toISOString().slice(0,10);return[d,T.filter(a=>a.at==d).length]}),m=Math.max(1,...days.map(x=>x[1]));
+$('ch').innerHTML=days.map((x,i)=>`<rect x="${i*40+8}" y="${80-x[1]/m*70}" width="26" height="${x[1]/m*70}" rx="6" fill="var(--ac)"/><text x="${i*40+21}" y="95" font-size="9" text-anchor="middle" fill="var(--mu)">${x[0].slice(8)}</text><text x="${i*40+21}" y="${76-x[1]/m*70}" font-size="9" text-anchor="middle" fill="var(--tx)">${x[1]||''}</text>`).join('');
+let up=X.map((e,i)=>[e.n,dt[i]||e.ed]).filter(a=>a[1]&&a[1]>=today).sort((a,b)=>a[1]>b[1]?1:-1);
+$('ss').innerHTML='<b>📅 Upcoming exam dates</b><div class="grid gap-2 mt-2">'+(up.map(a=>`<div class="flex justify-between"><span>${a[0]}</span><span class="tag">${cd(a[1])}</span></div>`).join('')||'<span class="mu">Set dates from an exam\'s Details.</span>')+'</div>'}
+const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const nx=(d,r)=>{let x=new Date(d+'T00:00:00Z');r=='daily'?x.setUTCDate(x.getUTCDate()+1):r=='weekly'?x.setUTCDate(x.getUTCDate()+7):x.setUTCMonth(x.getUTCMonth()+1);return x.toISOString().slice(0,10)};
+const V=[['today','☀️ Today'],['up','📅 Upcoming'],['inb','📥 Inbox'],['all','All'],['done','✔ Done']],PC=['','#ef4444','#f59e0b','#22c55e'];let vw='today',op=null,NB=L('nb',[]);
+const vf=a=>vw=='done'?a.ok:a.ok?0:vw=='all'?1:vw=='today'?(a.d&&a.d<=today):vw=='up'?(a.d&&a.d>today):!a.d;
+const cnt=k=>{let o=vw;vw=k;let n=T.filter(vf).length;vw=o;return n};
+function md(m){$('tv').classList.toggle('hidden',!!m);$('nv').classList.toggle('hidden',!m);$('m0').classList.toggle('p',!m);$('m1').classList.toggle('p',!!m);if(m)nl()}
+function sv(){S('tk',T);tl()}
+function add(){let s=$('t').value.trim();if(!s)return;let o={id:Date.now(),pr:2,d:'',tags:[],sub:[],nt:'',rp:'',ok:0};
+s=s.replace(/!(high|low|med)/i,(m,k)=>{o.pr={high:1,med:2,low:3}[k.toLowerCase()];return''}).replace(/#(\w+)/g,(m,k)=>{o.tags.push(k);return''}).replace(/\*(daily|weekly|monthly)/i,(m,k)=>{o.rp=k.toLowerCase();return''}).replace(/@(today|tomorrow|\d{4}-\d\d-\d\d)/i,(m,k)=>{k=k.toLowerCase();o.d=k=='today'?today:k=='tomorrow'?nx(today,'daily'):k;return''});
+o.x=s.trim()||'Untitled';if(o.rp&&!o.d)o.d=today;T.unshift(o);$('t').value='';vw=o.d?(o.d<=today?'today':'up'):'inb';sv()}
+function up(id,k,v){T.find(z=>z.id==id)[k]=v;sv()}
+function tg(id){let a=T.find(z=>z.id==id);a.ok=a.ok?0:1;a.at=a.ok?today:null;if(a.ok&&a.rp)T.unshift({...a,id:Date.now(),ok:0,at:null,d:nx(a.d||today,a.rp),sub:(a.sub||[]).map(x=>({x:x.x,ok:0}))});sv()}
+function sa(id,el){let v=el.value.trim();if(!v)return;let a=T.find(z=>z.id==id);(a.sub=a.sub||[]).push({x:v,ok:0});sv()}
+function sb(id,i){let x=T.find(z=>z.id==id).sub[i];x.ok=!x.ok;sv()}
+function sd(id,i){T.find(z=>z.id==id).sub.splice(i,1);sv()}
+function dx(id){T=T.filter(z=>z.id!=id);sv()}
+const det=a=>`<div class="mt-3 grid gap-2 text-sm"><textarea rows="2" placeholder="Notes…" onchange="up(${a.id},'nt',this.value)">${esc(a.nt)}</textarea>
+<div class="flex flex-wrap gap-2"><input type="date" value="${a.d||''}" onchange="up(${a.id},'d',this.value)"><select onchange="up(${a.id},'rp',this.value)">${['','daily','weekly','monthly'].map(r=>`<option value="${r}" ${a.rp==r?'selected':''}>${r?'🔁 '+r:'No repeat'}</option>`).join('')}</select><select onchange="up(${a.id},'pr',+this.value)">${[1,2,3].map(p=>`<option value="${p}" ${a.pr==p?'selected':''}>${['','🔴 High','🟡 Med','🟢 Low'][p]}</option>`).join('')}</select><button class="btn ml-auto" onclick="dx(${a.id})">🗑 Delete</button></div>
+${(a.sub||[]).map((x,i)=>`<div class="flex items-center gap-2"><input type="checkbox" ${x.ok?'checked':''} onchange="sb(${a.id},${i})"><span class="flex-1 ${x.ok?'mu':''}">${esc(x.x)}</span><button class="mu" onclick="sd(${a.id},${i})">✕</button></div>`).join('')}
+<input placeholder="＋ Add subtask and press Enter" onkeydown="if(event.key=='Enter')sa(${a.id},this)"></div>`;
+function tl(){let tags=[...new Set(T.flatMap(a=>a.tags||[]))],cur=$('tg2').value;$('tg2').innerHTML='<option value="">All tags</option>'+tags.map(t=>`<option ${t==cur?'selected':''}>${t}</option>`).join('');
+let q=$('ts').value.toLowerCase(),ft=$('tg2').value;
+$('pt').innerHTML=V.map(v=>`<button class="btn ${v[0]==vw?'p':''}" onclick="vw='${v[0]}';tl()">${v[1]} <b>${cnt(v[0])}</b></button>`).join('');
+let r=T.filter(vf).filter(a=>(!q||(a.x+(a.nt||'')).toLowerCase().includes(q))&&(!ft||(a.tags||[]).includes(ft))).sort((a,b)=>(a.pr-b.pr)||((a.d||'9')>(b.d||'9')?1:-1));
+$('tl').innerHTML=r.map(a=>{let sub=a.sub||[],dn=sub.filter(x=>x.ok).length,od=a.d&&a.d<today&&!a.ok;return`<div class="card p-3" style="border-left:5px solid ${PC[a.pr]}"><div class="flex items-center gap-3 ${a.ok?'done':''}"><input type="checkbox" class="w-5 h-5" ${a.ok?'checked':''} onchange="tg(${a.id})"><div class="flex-1 cursor-pointer" onclick="op=op==${a.id}?null:${a.id};tl()"><span class="t">${esc(a.x)}</span><div class="flex flex-wrap gap-1 mt-1">${a.d?`<span class="tag" style="${od?'background:#fee2e2;color:#b91c1c':''}">📅 ${a.d}${od?' overdue':''}</span>`:''}${a.rp?`<span class="tag">🔁 ${a.rp}</span>`:''}${(a.tags||[]).map(t=>`<span class="tag">#${esc(t)}</span>`).join('')}${sub.length?`<span class="tag">☑ ${dn}/${sub.length}</span>`:''}${a.nt?'<span class="tag">📝</span>':''}</div></div><span class="mu">${op==a.id?'▲':'▼'}</span></div>${op==a.id?det(a):''}</div>`}).join('')||'<p class="mu text-center py-8">🎉 Nothing here. Type a task above and press Enter.</p>';kp()}
+const NC=['rgba(250,204,21,.16)','rgba(56,189,248,.16)','rgba(74,222,128,.16)','rgba(244,114,182,.16)','rgba(167,139,250,.16)'];
+function na(){let t=$('nt2').value.trim(),b=$('nb2').value.trim();if(!t&&!b)return;NB.unshift({id:Date.now(),t,b,c:+$('nc2').value,pin:0});$('nt2').value=$('nb2').value='';nsv()}
+const nsv=()=>{S('nb',NB);nl()};
+function nu(id,k,v){NB.find(z=>z.id==id)[k]=v;nsv()}
+function nl(){let q=$('ns').value.toLowerCase();$('nlst').innerHTML=NB.filter(n=>!q||(n.t+n.b).toLowerCase().includes(q)).sort((a,b)=>b.pin-a.pin).map(n=>`<div class="rounded-2xl p-3" style="background:${NC[n.c]};border:1px solid var(--bd)"><div class="flex gap-2"><input class="flex-1 font-semibold" style="border:0;background:transparent;padding:0" value="${esc(n.t)}" onchange="nu(${n.id},'t',this.value)"><button onclick="nu(${n.id},'pin',${n.pin?0:1})">${n.pin?'📌':'📍'}</button><button onclick="NB=NB.filter(z=>z.id!=${n.id});nsv()">🗑</button></div><textarea rows="4" class="w-full mt-1" style="border:0;background:transparent;padding:0" onchange="nu(${n.id},'b',this.value)">${esc(n.b)}</textarea></div>`).join('')||'<p class="mu">No notes yet.</p>'}
+function bk(){$('dg').innerHTML=`<div class="p-5 grid gap-3"><b>💾 Backup / Restore</b><div class="mu text-xs">Copy this text and keep it safe. To restore, paste it here and press Restore.</div><textarea id="bx" rows="8" class="text-xs">${esc(JSON.stringify({T,NB,fav,dt,nt,PL}))}</textarea><div class="flex gap-2"><button class="btn p" onclick="$('bx').select();document.execCommand('copy')">Copy</button><button class="btn" onclick="rs()">Restore</button><button class="btn ml-auto" onclick="$('dg').close()">Close</button></div></div>`;$('dg').showModal()}
+function rs(){try{let o=JSON.parse($('bx').value);T=o.T||[];NB=o.NB||[];fav=o.fav||{};dt=o.dt||{};nt=o.nt||{};PL=o.PL||[];S('tk',T);S('nb',NB);S('fav',fav);S('dt',dt);S('nt',nt);S('pp',PL);tl();nl();ex();pl2();$('dg').close()}catch(e){alert('Invalid backup text')}}
+const SY={gen:"GS: Indian & Gujarat history, geography, polity, economy, science, current affairs · Reasoning & maths · Gujarati/English language",eng:"Prelim: GS + engineering aptitude · Mains: branch technical papers (design, estimation, machines/structures/circuits as per branch), Gujarati/English · Interview",cs:"Programming, DSA, DBMS, OS, computer networks, software engg, web tech, MIS, GS & Gujarati/English",el:"Electrical machines, power systems, circuits, measurements, control, basic electronics, GS",ci:"Structural analysis, RCC/steel design, surveying, soil & fluid mechanics, estimation & costing, transportation, GS",pol:"Gujarati/English, GK, reasoning, maths, law basics, physical test where applicable",cl:"GK, reasoning, maths, Gujarati/English, computer knowledge; descriptive paper in mains"};
+const R=[
+["GPSC Class 1 & 2 – 15 advts (Advt 42–56/2026-27, PwD drive incl. Marine Engineer, Engineer Surveyor, Traffic/Communication Officer)","GPSC","now","ci,ec,me,any",26,"2026-10-08","","","Prelim/mains dates TBA","eng","https://gpsc-ojas.gujarat.gov.in"],
+["GSSSB Supervisor Instructor (various groups)","GSSSB","now","el,ec,me,cs",436,"","See OJAS for form dates","","Exam Nov 2026 (tentative)","Trade/ITI-level technical subject + GK, reasoning, Gujarati/English","https://ojas.gujarat.gov.in"],
+["GACL Officer & Executive Trainee","GACL (Gujarat PSU)","now","me,el,oth","","2026-09-27","","","Selection process TBA","Company-specific technical + aptitude – see advt","https://www.gacl.com"],
+["GPRB Lokrakshak (LRD) Cadre","GPRB","now","any",3000,"2026-10-31","Verify current stage on GPRB (DV call letters reported 25 Sep)","","Physical + written","pol","https://gprb.gujarat.gov.in"],
+["GSRTC Helper (Mechanic)","GSRTC","now","me,el",2510,"2026-10-06","","","Exam TBA","ITI trade + GK & Gujarati basics","https://ojas.gujarat.gov.in"],
+["GTU School of Pharmacy – Director (Advt 04/2026)","GTU","now","oth",1,"2026-10-01","","","Selection as per advt","Academic/administrative – see advt","https://ojas.gujarat.gov.in"],
+["eHRMS Anganwadi Worker & Helper","WCD Gujarat","now","any",6843,"","Form dates: see OJAS/eHRMS","","District-wise merit","Merit based – see advt","https://ojas.gujarat.gov.in"],
+["GSSSB CCE 2026 (Group A & B)","GSSSB","now","any","","","Call letters out 8 Sep 2026","2026-09-16","Mains: Nov 2026 (A), Jan 2027 (B) – tentative","cl","https://gsssb.gujarat.gov.in"],
+["GSSSB Additional Assistant Engineer (Civil) – Advt 303/202526","GSSSB","now","ci","","","","2026-09-27","","ci","https://gsssb.gujarat.gov.in"],
+["GPSC Research Officer Class-2 (GAD) – Advt 23/2026-27","GPSC","now","any",20,"","","2026-09-29","Mains","gen","https://gpsc.gujarat.gov.in"],
+["GPSC Geologist Class-1 & Assistant Geologist Class-2","GPSC","now","oth","","","","2026-10-04","Mains","Geology core subjects + GS + Gujarati/English","https://gpsc.gujarat.gov.in"],
+["GPSC Gujarat Engineering Service Class 1 & 2","GPSC","now","ci,el,me",103,"","","","Mains 19–22 Jul 2026 done · Interview Dec 2026 (tentative)","eng","https://gpsc.gujarat.gov.in"],
+["GPSC Assistant Engineer (Civil) Class-2 – GWSSB","GPSC","old","ci",175,"","","","Exam 26 Jul 2026 · next stage 30 Aug 2026 (per calendar)","eng","https://gpsc.gujarat.gov.in"],
+["GPSC Assistant Engineer (Civil) Class-2 – Roads & Buildings","GPSC","old","ci",200,"","","","Exam 26 Jul 2026 · next stage 30 Aug 2026 (per calendar)","eng","https://gpsc.gujarat.gov.in"],
+["GPSC Assistant Engineer (Mechanical) Class-2 – GWSSB","GPSC","old","me",37,"","","","Exam 26 Jul 2026 · next stage 30 Aug 2026 (per calendar)","eng","https://gpsc.gujarat.gov.in"],
+["GPSC GAS / GCS / Chief Officer (Advt 5/2026-27)","GPSC","soon","any",213,"","","2026-11-05","Prelim 13 May 2026 done · Mains 5–11 Nov 2026","gen","https://gpsc.gujarat.gov.in"],
+["GPSC Mains – Accounts Officer, District Officer, ACF & RFO","GPSC","soon","any","","","","2026-12-13","Mains 13–16 Dec 2026","gen","https://gpsc.gujarat.gov.in"],
+["GSSSB Oct 2026 exams – Lab Assistant, Assistant Technical, Junior Technical Assistant, Standard Assistant","GSSSB","soon","cs,ec,el,me,ci",72,"","","","Oct 2026 (tentative calendar)","Trade technical subject + GK, reasoning, Gujarati/English","https://gsssb.gujarat.gov.in"],
+["SMC Clerk & Lab Technician","Surat Municipal Corp","soon","any","","","Exam POSTPONED (notice 31 Jul 2026)","","New date TBA","cl","https://ojas.gujarat.gov.in"],
+["GPSC Manager (MIS) Class-1 & 2 (GSCSCL)","GPSC","old","cs","","","","2026-03-28","Prelim 28 Mar 2026","cs","https://gpsc.gujarat.gov.in"],
+["GPSC Deputy Secretary Class-2 (English/Gujarati)","GPSC","old","any","","","","2026-02-16","Prelim 16 Feb 2026","gen","https://gpsc.gujarat.gov.in"],
+["GSSSB Horticulture Assistant","GSSSB","old","oth",100,"2026-08-17","","","","gen","https://gsssb.gujarat.gov.in"],
+["GSSSB Assistant Engineer (Electrical)","GSSSB","old","el",2,"2026-08-15","","","","el","https://gsssb.gujarat.gov.in"],
+["GSSSB MPHW","GSSSB","old","oth",119,"","Notification 31 Jul 2026","","","Health-worker subjects + GK","https://gsssb.gujarat.gov.in"],
+["GSSSB Work Assistant & Draftsman","GSSSB","old","ci,me",388,"","Selection list declared 22 Sep 2026","","","ci","https://gsssb.gujarat.gov.in"],
+["GSSSB Research Assistant & Statistical Assistant","GSSSB","old","any",41,"2026-09-23","","","","gen","https://gsssb.gujarat.gov.in"],
+["Kamdhenu University Junior Clerk","Kamdhenu Univ.","old","any","","","Result 19 Sep 2026","","","cl","https://ojas.gujarat.gov.in"],
+["GUVNL group Vidyut Sahayak (JE Electrical) – GETCO/DGVCL/MGVCL/UGVCL/PGVCL","GUVNL group","now","el",183,"2026-07-02","Form closed – check call letter/result on company sites","","CBT (two-tier, per notification)","el","https://www.getco.co.in"],
+["GETCO Apprentice Lineman – Navsari walk-in","GETCO","now","el","","2026-09-28","Pole-climbing test 20–28 Sep 2026 (ITI Electrician/Wireman)","2026-09-28","Walk-in test","ITI trade + practical pole-climbing test","https://www.getco.co.in"],
+["GUVNL group Assistant Manager (IT)","GUVNL group","old","cs",36,"","2025 cycle","","","cs","https://www.getco.co.in"],
+["GETCO group Vidyut Sahayak (JE Electrical) – PwBD drive","GETCO group","old","el",101,"2025-09-19","","","","el","https://www.getco.co.in"],
+["GUVNL group Vidyut Sahayak 2024 (394 posts)","GUVNL group","old","el",394,"2024-04-01","","","","el","https://www.getco.co.in"],
+["Gujarat TET 2026","GSEB / SEB","soon","any","","","Verify: one source lists exam 3 May 2026","","Check sebexam.org for current stage","Child development & pedagogy, language, maths/EVS or subject","https://www.sebexam.org"],
+["GSSSB Laboratory Assistant (145 posts)","GSSSB","old","cs,ec,el,oth",145,"","Earlier cycle – check OJAS","","","Lab/technical subject + GK, reasoning, Gujarati/English","https://gsssb.gujarat.gov.in"],
+["GSSSB Fireman-cum-Driver (13 posts)","GSSSB","old","any",13,"","Earlier cycle – check OJAS","","","Driving/fire-safety basics + GK","https://gsssb.gujarat.gov.in"]];
+const EB=['ec,cs','ec,el','cs','cs','el,ec','cs','any','any','any','any','any'],GR={now:'#12b886,#22b8cf',soon:'#4c5cf0,#9b5cf6',old:'#868e96,#495057'};
+const X=E.map((e,i)=>({n:e[1],o:e[2],s:i==0?'old':'soon',b:EB[i],p:'',fl:'',fs:i==0?'Latest cycle finished (answer key 22 Sep 2026)':'Next cycle: watch OJAS',ed:'',et:'Recurring exam',sy:e[6],el:e[4],pt:e[5],l:e[7],ic:e[0],g:e[8]})).concat(R.map(r=>({n:r[0],o:r[1],s:r[2],b:r[3],p:r[4],fl:r[5],fs:r[6],ed:r[7],et:r[8],sy:SY[r[9]]||r[9],el:'As per advertisement (branch, degree, age limit) – verify on OJAS',pt:'See notification',l:r[10],ic:r[3]=='any'?'📄':'🛠️',g:GR[r[2]]})));
+const tk=e=>e.b!='any',BL={cs:'Computer/IT',ec:'Electronics/Comm',el:'Electrical',ci:'Civil',me:'Mechanical',oth:'Other tech',any:'Any graduate'},SL={now:'🟢 Current',soon:'🟡 Upcoming',old:'⚪ Old'};
+const fsx=e=>e.fl?(e.fl>=today?`🟢 Form open · ${cd(e.fl)}`:`🔴 Form closed (${e.fl})`):(e.fs?(/postpon|cancel/i.test(e.fs)?'🟠 ':'ℹ️ ')+e.fs:'');
+function ex(){let s=$('q').value.toLowerCase(),f=$('f').value,st=$('sf').value,bf=$('bf').value,rk={now:0,soon:1,old:2};
+let r=X.map((e,i)=>({e,i})).filter(({e,i})=>(!f||(f=='fav'?fav[i]:f=='tech'?tk(e):!tk(e)))&&(!st||e.s==st)&&(!bf||e.b.split(',').includes(bf)||e.b=='any')&&s.split(/\s+/).every(w=>(e.n+' '+e.o+' '+e.sy+' '+e.et+' '+e.fs+' '+e.b.split(',').map(b=>BL[b]).join(' ')).toLowerCase().includes(w))).sort((a,b)=>rk[a.e.s]-rk[b.e.s]);
+$('ecnt').textContent=r.length+' of '+X.length+' exams';
+$('el').innerHTML=r.map(({e,i})=>{let d=dt[i]||e.ed;return`<div class="card p-4"><div class="flex gap-3"><div class="ic" style="background:linear-gradient(135deg,${e.g})">${e.ic}</div><div class="flex-1"><div class="font-semibold leading-snug">${esc(e.n)}</div><div class="mu text-xs">${esc(e.o)}${e.p?' · '+e.p+' posts':''}</div></div><button class="text-xl" onclick="tr(${i})">${fav[i]?'★':'☆'}</button></div>
+<div class="flex flex-wrap gap-1 mt-3"><span class="tag">${SL[e.s]}</span>${e.b.split(',').map(b=>`<span class="tag">${BL[b]}</span>`).join('')}</div>
+<div class="text-xs mt-2">${fsx(e)}</div><div class="mu text-xs mt-1">${d?'📅 '+d+' · '+cd(d):'🗓️ '+(e.et||'Date TBA')}</div><button class="btn mt-3" onclick="dl(${i})">Details & syllabus</button></div>`}).join('')||`<div class="card p-4 md:col-span-2"><b>No exam in my built-in list matches this.</b><div class="mu text-xs my-2">Clear the status/branch filters, or look it up live:</div><div class="flex flex-wrap gap-2"><a class="btn p" target="_blank" rel="noopener" href="https://ojas.gujarat.gov.in">Search on OJAS ↗</a><a class="btn" target="_blank" rel="noopener" href="https://www.google.com/search?q=${encodeURIComponent((s||'Gujarat')+' recruitment 2026 Gujarat')}">Google it ↗</a><button class="btn" onclick="ask('Gujarat government exam: '+$('q').value)">🤖 Ask AI</button></div></div>`;kp()}
+function dl(i){let e=X[i],d=dt[i]||e.ed,g=d&&/^\d{4}-\d\d-\d\d$/.test(d)?d.replace(/-/g,''):'',cal=g?`https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(e.n)}&dates=${g}/${g}&details=${encodeURIComponent('Verify at '+e.l)}`:'';
+$('dg').innerHTML=`<div class="grad p-5 flex gap-3 items-center"><div class="ic" style="background:rgba(255,255,255,.25)">${e.ic}</div><div><div class="font-bold leading-snug">${esc(e.n)}</div><div class="text-xs opacity-90">${esc(e.o)} · ${SL[e.s]}</div></div></div>
+<div class="p-5 grid gap-3 text-sm"><div><b>Form status</b><div class="mu">${fsx(e)||'No open form right now'}</div></div><div><b>Exam schedule</b><div class="mu">${esc(e.et||'TBA')}${d?' · '+d:''}</div></div><div><b>Eligible branches</b><div class="mu">${e.b.split(',').map(b=>BL[b]).join(', ')}</div></div><div><b>Eligibility</b><div class="mu">${esc(e.el)}</div></div><div><b>Pattern</b><div class="mu">${esc(e.pt)}</div></div><div><b>Syllabus focus</b><div class="mu">${esc(e.sy)}</div></div>
+<div class="flex gap-2 items-center flex-wrap"><span class="mu">My date:</span><input type="date" value="${/^\d{4}-\d\d-\d\d$/.test(d||'')?d:''}" onchange="dt[${i}]=this.value;S('dt',dt);ex();dl(${i})">${cal?`<a class="btn" target="_blank" rel="noopener" href="${cal}">📆 Google Calendar</a>`:''}</div>
+<textarea rows="3" placeholder="My notes…" onchange="nt[${i}]=this.value;S('nt',nt)">${esc(nt[i]||'')}</textarea>
+<div class="flex gap-2 flex-wrap"><a class="btn p" target="_blank" rel="noopener" href="${e.l}">Official site ↗</a><button class="btn" onclick="$('dg').close();ask('Detailed syllabus and 30-day preparation plan for: '+X[${i}].n+' (Gujarat govt exam)')">🤖 AI syllabus & plan</button><button class="btn ml-auto" onclick="$('dg').close()">Close</button></div></div>`;$('dg').showModal()}
+// live feed (works when a JSON feed URL is reachable, e.g. downloaded file / your own hosting)
+let FU=L('feedurl','exams.json');const STAMP='28 Sep 2026';$('fu').value=FU;
+async function rf(m){let lab=$('lu');if(!FU){lab.textContent='Built-in snapshot: '+STAMP+(m?' · add a feed URL for instant live updates':'');return}
+try{let d=await(await fetch(FU,{cache:'no-store'})).json();(d.exams||d).forEach(r=>{let k=X.findIndex(x=>x.n==r.n);r.b=r.b||'any';r.s=r.s||'soon';if(k<0)X.push({el:'Verify on OJAS',pt:'See notification',sy:'See notification',l:'https://ojas.gujarat.gov.in',ic:'📄',g:GR[r.s],p:'',fl:'',fs:'',ed:'',et:'',...r});else Object.assign(X[k],r)});lab.textContent='✅ Live feed updated '+new Date().toLocaleTimeString();ex()}catch(e){lab.textContent='Feed unreachable – using snapshot ('+STAMP+')'}}
+function svf(){FU=$('fu').value.trim();S('feedurl',FU);rf(1)}
+setInterval(()=>rf(0),6e4);document.addEventListener('visibilitychange',()=>{if(!document.hidden)rf(0)});addEventListener('online',()=>rf(0));addEventListener('focus',()=>rf(0));
+// AI topic lookup (full screen)
+const md2=t=>esc(t).replace(/^### (.*)$/gm,'<h4 class="font-bold mt-4">$1</h4>').replace(/^## (.*)$/gm,'<h3 class="font-bold text-lg mt-5 mb-1">$1</h3>').replace(/^# (.*)$/gm,'<h2 class="font-bold text-xl mt-5 mb-1">$1</h2>').replace(/\*\*(.+?)\*\*/g,'<b>$1</b>').replace(/^[-*] (.*)$/gm,'<div class="ml-4">• $1</div>').replace(/`([^`]+)`/g,'<code>$1</code>').replace(/\n/g,'<br>');
+function wk(){let q=$('wq').value.trim();if(q)ask(q)}
+async function ask(q){$('ft').textContent=q.length>70?q.slice(0,70)+'…':q;$('fg').href='https://www.google.com/search?q='+encodeURIComponent(q);$('fb').innerHTML='<p class="mu">Thinking…</p>';$('fs').classList.remove('hidden');
+let sm=null;try{sm=window.claude&&await claude.use('sample')}catch(e){}
+if(sm){try{let r=await sm(`You are an expert tutor for Gujarat government exam preparation (GPSC, GSSSB, GPRB, GETCO). The aspirant is a Computer/Electronics engineer. Topic or question: "${q}"\nAnswer thoroughly in markdown with sections: ## Overview, ## Key concepts, ## Formulas / diagrams (in text), ## Exam tips, ## 5 practice MCQs with answers, ## Relevance for Gujarat exams. Never invent recruitment dates; tell the user to verify current dates on OJAS.`,{modelTier:'default',cache:false,onText:({text})=>{$('fb').innerHTML=md2(text)}});$('fb').innerHTML=md2(r.text);return}catch(e){$('fb').innerHTML='<p class="mu">AI answer unavailable ('+esc(e.code||e.message)+'). Try the Google button above.</p>';return}}
+try{let s=await(await fetch('https://en.wikipedia.org/w/api.php?action=opensearch&format=json&origin=*&limit=1&search='+encodeURIComponent(q))).json(),r=await(await fetch('https://en.wikipedia.org/api/rest_v1/page/summary/'+encodeURIComponent(s[1][0]))).json();$('fb').innerHTML=`<h3 class="font-bold text-lg">${esc(r.title)}</h3>${r.thumbnail?`<img src="${r.thumbnail.source}" class="rounded-xl my-3 max-h-56" onerror="this.remove()">`:''}<p>${esc(r.extract)}</p><a target="_blank" rel="noopener" href="${r.content_urls.desktop.page}">Read more on Wikipedia ↗</a>`}catch(e){$('fb').innerHTML='<p class="mu">AI answer needs the Claude viewer. Use the Google button above for this topic.</p>'}}
+// call letters + vault
+$('cl').innerHTML=[["OJAS – all boards","https://ojas.gujarat.gov.in"],["GPSC","https://gpsc-ojas.gujarat.gov.in"],["GPRB Police","https://gprb.gujarat.gov.in"],["GSSSB","https://gsssb.gujarat.gov.in"],["TET / TAT (SEB)","https://www.sebexam.org"]].map(a=>`<a class="btn p" target="_blank" rel="noopener" href="${a[1]}">📥 ${a[0]}</a>`).join('');
+let VL=L('vt',[]);function va(){let n=$('vn').value.trim(),c=$('vc').value.trim();if(!n||!c)return;VL.push([n,c]);S('vt',VL);$('vn').value=$('vc').value='';vr()}
+function vr(){$('vl').innerHTML=VL.map((v,i)=>`<div class="flex gap-2 items-center"><span class="flex-1">${esc(v[0])}: <b>${esc(v[1])}</b></span><button class="btn" onclick="navigator.clipboard&&navigator.clipboard.writeText(VL[${i}][1])">Copy</button><button class="btn" onclick="VL.splice(${i},1);S('vt',VL);vr()">✕</button></div>`).join('')||'<span class="mu">Nothing saved yet.</span>'}
+vr();rf(1);
+// Pomodoro
+let secs=1500,iv=null;const fm=s=>String(Math.floor(s/60)).padStart(2,'0')+':'+String(s%60).padStart(2,'0');
+function pomR(m){clearInterval(iv);iv=null;secs=m*60;$('tm').textContent=fm(secs)}
+function pom(){if(iv){clearInterval(iv);iv=null;return}try{Notification.requestPermission()}catch(e){}
+iv=setInterval(()=>{secs--;$('tm').textContent=fm(secs);document.title=fm(secs)+' · Focus';if(secs<=0){clearInterval(iv);iv=null;pomN[today]=(pomN[today]||0)+1;S('pn',pomN);$('pc').textContent='Sessions today: '+pomN[today];try{new Notification('Time is up! 🎉')}catch(e){}}},1000)}
+$('pc').textContent='Sessions today: '+(pomN[today]||0);
+// APIs (graceful fallback)
+(async()=>{try{let r=await(await fetch('https://api.open-meteo.com/v1/forecast?latitude=22.30&longitude=70.80&current_weather=true')).json();$('wx').textContent='🌤️ Rajkot '+Math.round(r.current_weather.temperature)+'°C'}catch(e){$('wx').textContent='📍 Gujarat'}})();
+$('lk').innerHTML=[["OJAS Gujarat","https://ojas.gujarat.gov.in"],["GPSC","https://gpsc.gujarat.gov.in"],["GSSSB","https://gsssb.gujarat.gov.in"],["GPRB Police","https://gprb.gujarat.gov.in"],["GETCO","https://www.getco.co.in"],["Gujarat Govt","https://gujaratindia.gov.in"]].map(a=>`<a class="btn" target="_blank" rel="noopener" href="${a[1]}">${a[0]} ↗</a>`).join('');
+const N=[
+["GPSC Class 1 & 2 – 15 advts (Advt 42–56/2026-27, incl. Marine/Engineer Surveyor, Traffic/Communication Officer PwD drives)","GPSC",26,"2026-10-08","tech","https://gpsc-ojas.gujarat.gov.in"],
+["GSSSB Supervisor Instructor","GSSSB",436,"","tech","https://ojas.gujarat.gov.in"],
+["GACL Officer & Executive Trainee","GACL (Gujarat Govt PSU)","–","2026-09-27","tech","https://www.gacl.com"],
+["GPRB Lokrakshak (LRD) Cadre","GPRB",3000,"2026-10-31","non","https://gprb.gujarat.gov.in"],
+["GSRTC Helper (Mechanic)","GSRTC",2510,"2026-10-06","non","https://ojas.gujarat.gov.in"],
+["GTU School of Pharmacy – Director (Advt 04/2026)","GTU",1,"2026-10-01","non","https://ojas.gujarat.gov.in"],
+["GSSSB Research Assistant & Statistical Assistant","GSSSB",41,"2026-09-23","non","https://ojas.gujarat.gov.in"],
+["eHRMS Anganwadi Worker & Helper","WCD Gujarat",6843,"","non","https://ojas.gujarat.gov.in"]];
+const rd=d=>!d?'Check OJAS':d<today?'Closed':cd(d);
+function lv(){let f=$('lf').value;$('ll').innerHTML=N.map((n,i)=>({n,i})).filter(({n})=>!f||(f=='tech'?n[4]=='tech':(!n[3]||n[3]>=today))).map(({n,i})=>`<div class="card p-4"><div class="flex gap-2 justify-between"><b class="leading-snug">${n[0]}</b><span class="tag whitespace-nowrap">${n[4]=='tech'?'Tech ⭐':'Non-tech'}</span></div>
+<div class="mu text-xs mt-1">${n[1]} · ${n[2]} posts · Last date: ${n[3]||'see notification'}</div><div class="flex gap-2 items-center mt-3 flex-wrap"><span class="tag" style="background:${n[3]&&n[3]<today?'#fee2e2':'rgba(47,158,68,.18)'};color:${n[3]&&n[3]<today?'#b91c1c':'#2f9e44'}">${rd(n[3])}</span>
+<button class="btn ml-auto" onclick="ap(${i})">➕ Add to my tasks</button><a class="btn p" target="_blank" rel="noopener" href="${n[5]}">Apply ↗</a></div></div>`).join('')}
+function ap(i){let n=N[i];T.push({id:Date.now(),x:'Apply: '+n[0].split(' (')[0].split(' – ')[0],p:'weekly',pr:1,d:n[3],ok:0});S('tk',T);tl();alert('Added to Weekly tasks')}
+const A=[["GPRB PSI (Wireless) & Technical Operator – Final Answer Key","GPRB","Answer key","22 Sep 2026","tech"],["GSSSB CCE 2026 (Group A & B) – Call Letters","GSSSB","Call letter","8 Sep 2026",""],["GSSSB Work Assistant – Selection List","GSSSB","Result","22 Sep 2026",""],["Gujarat LRD Lokrakshak – DV Call Letter","GPRB","Call letter","25 Sep 2026",""],["Kamdhenu University Junior Clerk – Result","KU","Result","19 Sep 2026",""],["GSSSB Horticulture Assistant (100 posts)","GSSSB","Closed","17 Aug 2026",""],["GSSSB Assistant Engineer (Electrical)","GSSSB","Closed","15 Aug 2026","tech"],["GSSSB MPHW (119 posts)","GSSSB","Notification","31 Jul 2026",""]];
+$('ar').innerHTML=A.map(a=>`<div class="card p-3 flex gap-2 items-center"><div class="flex-1"><div class="font-semibold text-sm leading-snug">${a[4]?'⭐ ':''}${a[0]}</div><div class="mu text-xs">${a[1]} · ${a[3]}</div></div><span class="tag">${a[2]}</span></div>`).join('');
+$('pl').innerHTML=[["OJAS: results & answer keys","https://ojas.gujarat.gov.in"],["GPSC previous papers","https://gpsc.gujarat.gov.in"],["GSSSB papers & keys","https://gsssb.gujarat.gov.in"],["GPRB Police (old papers)","https://gprb.gujarat.gov.in"],["MaruGujarat – Old Question Papers","https://marugujarat.net"]].map(a=>`<a class="btn" target="_blank" rel="noopener" href="${a[1]}">${a[0]} ↗</a>`).join('');
+let PL=L('pp',[]);function lg(){let n=$('pn2').value.trim();if(!n)return;PL.push([n,$('ps2').value||0,today]);S('pp',PL);$('pn2').value='';$('ps2').value='';pl2()}
+function pl2(){$('pg2').innerHTML=PL.slice().reverse().map(p=>`<div class="flex justify-between"><span>${p[0]} <span class="mu text-xs">${p[2]}</span></span><b>${p[1]}/100</b></div>`).join('')||'<span class="mu">No papers logged yet.</span>'}
+ex();tl();lv();pl2();
+if('serviceWorker' in navigator&&location.protocol.startsWith('http'))navigator.serviceWorker.register('sw.js').catch(()=>{});
+</script></body></html>
