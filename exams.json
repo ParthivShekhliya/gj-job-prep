@@ -1,6 +1,58 @@
 {
- "updated": "2026-10-02T06:20:22.894085+00:00",
+ "updated": "2026-10-02T12:49:41.242101+00:00",
  "exams": [
+  {
+   "n": "Railway Recruitment Boards (RRBs) CEN 04/2026 Junior Engineer CBT-I Revised Schedule Released",
+   "o": "Gujarat Govt",
+   "s": "now",
+   "b": "el",
+   "p": "",
+   "fl": "",
+   "fs": "Auto-detected from public feed – verify on OJAS",
+   "ed": "",
+   "et": "Posted Fri, 02 Oct 2026",
+   "sy": "See official notification",
+   "l": "https://www.marugujarat.in/2026/10/rrb-cen-04-2026-junior-engineer/"
+  },
+  {
+   "n": "SSC Examination Schedule 2026 Released: Junior Engineer, SI, CHSL Exam Dates",
+   "o": "Gujarat Govt",
+   "s": "now",
+   "b": "el",
+   "p": "",
+   "fl": "",
+   "fs": "Auto-detected from public feed – verify on OJAS",
+   "ed": "",
+   "et": "Posted Fri, 02 Oct 2026",
+   "sy": "See official notification",
+   "l": "https://www.marugujarat.in/2026/10/ssc-examination-schedule-2026/"
+  },
+  {
+   "n": "IBPS Clerk Admit Card 2026 for 11403 Customer Service Associate Posts",
+   "o": "Gujarat Govt",
+   "s": "now",
+   "b": "any",
+   "p": "",
+   "fl": "",
+   "fs": "Auto-detected from public feed – verify on OJAS",
+   "ed": "",
+   "et": "Posted Fri, 02 Oct 2026",
+   "sy": "See official notification",
+   "l": "https://www.marugujarat.in/2026/10/ibps-clerk-admit-card-2026/"
+  },
+  {
+   "n": "RRB ALP Recruitment 2025: 9970 Posts, CBT-II Result & Score Card Released",
+   "o": "Gujarat Govt",
+   "s": "old",
+   "b": "any",
+   "p": "9970",
+   "fl": "",
+   "fs": "Auto-detected from public feed – verify on OJAS",
+   "ed": "",
+   "et": "Posted Fri, 02 Oct 2026",
+   "sy": "See official notification",
+   "l": "https://www.marugujarat.in/2026/10/rrb-alp-recruitment-2025-cbt2-result-score-card/"
+  },
   {
    "n": "Lok Seva Mandal Recruitment 2026 for Housemaster, Cook & Peon Posts",
    "o": "Gujarat Govt",
@@ -598,58 +650,6 @@
    "et": "Posted Sat, 26 Sep 2026",
    "sy": "See official notification",
    "l": "https://www.marugujarat.in/2026/09/salaya-nagarpalika-city-manager/"
-  },
-  {
-   "n": "GVK EMRI Green Health Services Walk-in Interview for Project Coordinator 2026",
-   "o": "Gujarat Govt",
-   "s": "now",
-   "b": "any",
-   "p": "",
-   "fl": "",
-   "fs": "Auto-detected from public feed – verify on OJAS",
-   "ed": "",
-   "et": "Posted Sat, 26 Sep 2026",
-   "sy": "See official notification",
-   "l": "https://www.marugujarat.in/2026/09/gvk-emri-green-health-services-2026/"
-  },
-  {
-   "n": "Rajkot Nagarik Sahakari Bank Jr. Executive (Trainee) Recruitment 2026",
-   "o": "Gujarat Govt",
-   "s": "now",
-   "b": "any",
-   "p": "",
-   "fl": "",
-   "fs": "Auto-detected from public feed – verify on OJAS",
-   "ed": "",
-   "et": "Posted Fri, 25 Sep 2026",
-   "sy": "See official notification",
-   "l": "https://www.marugujarat.in/2026/09/rnsb-jr-executive-trainee/"
-  },
-  {
-   "n": "Gujarat High Court Librarian & Research Assistant Recruitment 2026",
-   "o": "Gujarat High Court",
-   "s": "now",
-   "b": "any",
-   "p": "",
-   "fl": "",
-   "fs": "Auto-detected from public feed – verify on OJAS",
-   "ed": "",
-   "et": "Posted Fri, 25 Sep 2026",
-   "sy": "See official notification",
-   "l": "https://www.marugujarat.in/2026/09/gujarat-high-court-librarian/"
-  },
-  {
-   "n": "Bhakta Kavi Narsinh Mehta University Junagadh Recruitment 2026",
-   "o": "Gujarat Govt",
-   "s": "now",
-   "b": "any",
-   "p": "",
-   "fl": "",
-   "fs": "Auto-detected from public feed – verify on OJAS",
-   "ed": "",
-   "et": "Posted Fri, 25 Sep 2026",
-   "sy": "See official notification",
-   "l": "https://www.marugujarat.in/2026/09/bhakta-kavi-narsinh-mehta/"
   },
   {
    "n": "GSSSB Work Assistant Class 3 Selection List 2026 Declared",
@@ -2550,6 +2550,32 @@
    "l": "https://www.marugujarat.in/2022/05/trb-psi-wireless-technical-operator-psi-mt-cpt-call-lettter-2022/"
   },
   {
+   "n": "Rajkot Nagarik Sahakari Bank Jr. Executive (Trainee) Recruitment 2026",
+   "o": "Gujarat Govt",
+   "s": "now",
+   "b": "any",
+   "p": "",
+   "fl": "",
+   "fs": "Auto-detected from public feed – verify on OJAS",
+   "ed": "",
+   "et": "Posted Fri, 25 Sep 2026",
+   "sy": "See official notification",
+   "l": "https://www.marugujarat.in/2026/09/rnsb-jr-executive-trainee/"
+  },
+  {
+   "n": "Gujarat High Court Librarian & Research Assistant Recruitment 2026",
+   "o": "Gujarat High Court",
+   "s": "now",
+   "b": "any",
+   "p": "",
+   "fl": "",
+   "fs": "Auto-detected from public feed – verify on OJAS",
+   "ed": "",
+   "et": "Posted Fri, 25 Sep 2026",
+   "sy": "See official notification",
+   "l": "https://www.marugujarat.in/2026/09/gujarat-high-court-librarian/"
+  },
+  {
    "n": "Army Public School Ambala Recruitment 2026: Apply for TGT, PRT & Non-Teaching Posts",
    "o": "Gujarat Govt",
    "s": "now",
@@ -2600,19 +2626,6 @@
    "et": "Posted Thu, 24 Sep 2026",
    "sy": "See official notification",
    "l": "https://www.marugujarat.in/2026/09/ssc-cgl-2026-tier-1-exam-dates/"
-  },
-  {
-   "n": "Rajkot Rajpath Limited Recruitment 2026: Apply Offline for 08 Posts",
-   "o": "Gujarat Govt",
-   "s": "now",
-   "b": "any",
-   "p": "08",
-   "fl": "",
-   "fs": "Auto-detected from public feed – verify on OJAS",
-   "ed": "",
-   "et": "Posted Tue, 22 Sep 2026",
-   "sy": "See official notification",
-   "l": "https://www.marugujarat.in/2026/09/rajkot-rajpath-limited-recruitment-2026/"
   },
   {
    "n": "Bhavnagar Municipal Corporation (BMC) Call Letter & Exam Date 2026 for Various Posts",
@@ -2862,20 +2875,7 @@
    "l": "https://www.marugujarat.in/2023/10/bmc-head-clerk-senior-clerk/"
   },
   {
-   "n": "Surat Municipal Corporation Dy. Engineer (Civil) Provisional Answer Key and Question Paper 2026",
-   "o": "Gujarat Govt",
-   "s": "old",
-   "b": "ci",
-   "p": "",
-   "fl": "",
-   "fs": "Auto-detected from public feed – verify on OJAS",
-   "ed": "",
-   "et": "Posted Fri, 25 Sep 2026",
-   "sy": "See official notification",
-   "l": "https://www.marugujarat.in/2026/09/smc-provisional-answer-key-2/"
-  },
-  {
-   "n": "Rozgaar Bharti Melo 29-09-2026: Apply Now for Various Posts!",
+   "n": "Bhakta Kavi Narsinh Mehta University Junagadh Recruitment 2026",
    "o": "Gujarat Govt",
    "s": "now",
    "b": "any",
@@ -2885,7 +2885,20 @@
    "ed": "",
    "et": "Posted Fri, 25 Sep 2026",
    "sy": "See official notification",
-   "l": "https://www.marugujarat.in/2026/09/rozgaar-bharti-melo-29-09-2026-apply-now-for-various-posts/"
+   "l": "https://www.marugujarat.in/2026/09/bhakta-kavi-narsinh-mehta/"
+  },
+  {
+   "n": "Rajkot Rajpath Limited Recruitment 2026: Apply Offline for 08 Posts",
+   "o": "Gujarat Govt",
+   "s": "now",
+   "b": "any",
+   "p": "08",
+   "fl": "",
+   "fs": "Auto-detected from public feed – verify on OJAS",
+   "ed": "",
+   "et": "Posted Tue, 22 Sep 2026",
+   "sy": "See official notification",
+   "l": "https://www.marugujarat.in/2026/09/rajkot-rajpath-limited-recruitment-2026/"
   },
   {
    "n": "Assam Rifles Technical and Tradesman Recruitment Rally 2026: Apply Online for 354 Posts",
@@ -3055,6 +3068,19 @@
    "et": "Posted Thu, 27 Aug 2026",
    "sy": "See official notification",
    "l": "https://www.marugujarat.in/2026/08/uttam-dairy-walk-in-interview-2026/"
+  },
+  {
+   "n": "Surat Municipal Corporation Dy. Engineer (Civil) Provisional Answer Key and Question Paper 2026",
+   "o": "Gujarat Govt",
+   "s": "old",
+   "b": "ci",
+   "p": "",
+   "fl": "",
+   "fs": "Auto-detected from public feed – verify on OJAS",
+   "ed": "",
+   "et": "Posted Fri, 25 Sep 2026",
+   "sy": "See official notification",
+   "l": "https://www.marugujarat.in/2026/09/smc-provisional-answer-key-2/"
   },
   {
    "n": "SPIPA UPSC Civil Services Training 2026-27 Call Letter Declared",
@@ -3395,19 +3421,6 @@
    "l": "https://www.marugujarat.in/2026/09/gujarat-state-allied-healthcare-council/"
   },
   {
-   "n": "NTPC Assistant Officer (Corporate Communication) Recruitment 2026",
-   "o": "Gujarat Govt",
-   "s": "now",
-   "b": "ec",
-   "p": "",
-   "fl": "",
-   "fs": "Auto-detected from public feed – verify on OJAS",
-   "ed": "",
-   "et": "Posted Mon, 21 Sep 2026",
-   "sy": "See official notification",
-   "l": "https://www.marugujarat.in/2026/09/ntpc-assistant-officer/"
-  },
-  {
    "n": "Kamdhenu University Junior Clerk (Class-3) Preliminary Exam Result 2026 Released",
    "o": "Gujarat Govt",
    "s": "old",
@@ -3536,19 +3549,6 @@
    "et": "Posted Tue, 11 Aug 2026",
    "sy": "See official notification",
    "l": "https://www.marugujarat.in/2026/08/sbi-clerk-recruitment-2026/"
-  },
-  {
-   "n": "Gujarat Tribal Development Department Recruitment 2026 for Warden & Clerk Posts",
-   "o": "Gujarat Govt",
-   "s": "now",
-   "b": "any",
-   "p": "",
-   "fl": "",
-   "fs": "Auto-detected from public feed – verify on OJAS",
-   "ed": "",
-   "et": "Posted Mon, 10 Aug 2026",
-   "sy": "See official notification",
-   "l": "https://www.marugujarat.in/2026/08/gujarat-tribal-dept-warden-clerk-recruitment-2026/"
   },
   {
    "n": "GSSSB Revenue Talati Document Verification Schedule 2026 Announced for Advt No. 301/202526",
@@ -3926,19 +3926,6 @@
    "et": "Posted Fri, 07 Aug 2026",
    "sy": "See official notification",
    "l": "https://www.marugujarat.in/2026/08/bharuch-police-mitra-bharti-2026/"
-  },
-  {
-   "n": "Lokrakshak Cadre (2025-26) Written Exam Marks Declared & Re-evaluation Application",
-   "o": "GPRB",
-   "s": "now",
-   "b": "any",
-   "p": "",
-   "fl": "",
-   "fs": "Auto-detected from public feed – verify on OJAS",
-   "ed": "",
-   "et": "Posted Sat, 11 Jul 2026",
-   "sy": "See official notification",
-   "l": "https://www.marugujarat.in/2026/07/lokrakshak-cadre-2025-26-exam-marks-declared-re-evaluation/"
   },
   {
    "n": "Jawahar Navodaya Vidyalaya Narmada Recruitment 2026 for Various Posts",
@@ -4446,6 +4433,19 @@
    "et": "Posted Sun, 17 May 2026",
    "sy": "See official notification",
    "l": "https://www.marugujarat.in/2026/05/gpsc-dyso-deputy-mamlatdar-special-recruitment-ineligible-list/"
+  },
+  {
+   "n": "Lokrakshak Cadre (2025-26) Written Exam Marks Declared & Re-evaluation Application",
+   "o": "GPRB",
+   "s": "now",
+   "b": "any",
+   "p": "",
+   "fl": "",
+   "fs": "Auto-detected from public feed – verify on OJAS",
+   "ed": "",
+   "et": "Posted Sat, 11 Jul 2026",
+   "sy": "See official notification",
+   "l": "https://www.marugujarat.in/2026/07/lokrakshak-cadre-2025-26-exam-marks-declared-re-evaluation/"
   },
   {
    "n": "GPRB Lokrakshak Cadre Final Answer Key 2026 Released (GPRB/202526/1)",
