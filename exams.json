@@ -1,6 +1,45 @@
 {
- "updated": "2026-10-13T10:44:09.451990+00:00",
+ "updated": "2026-10-13T17:51:07.531857+00:00",
  "exams": [
+  {
+   "n": "Gujarat Police Motor Transport PSI & HCDM-I Written Exam Marks Declared",
+   "o": "GPRB",
+   "s": "now",
+   "b": "any",
+   "p": "",
+   "fl": "",
+   "fs": "Auto-detected from public feed – verify on OJAS",
+   "ed": "",
+   "et": "Posted Tue, 13 Oct 2026",
+   "sy": "See official notification",
+   "l": "https://www.marugujarat.in/2026/10/gujarat-police-motor-transport-psi-hcdm-i-marks-declared-rechecking/"
+  },
+  {
+   "n": "GSSSB Updates: Stenographer Grade-2 DV List, Marks & Lab Assistant Answer Keys Released",
+   "o": "GSSSB",
+   "s": "old",
+   "b": "any",
+   "p": "",
+   "fl": "",
+   "fs": "Auto-detected from public feed – verify on OJAS",
+   "ed": "",
+   "et": "Posted Tue, 13 Oct 2026",
+   "sy": "See official notification",
+   "l": "https://www.marugujarat.in/2026/10/gsssb-updates/"
+  },
+  {
+   "n": "Surat Municipal Corporation (SMC) Clerk Question Paper Available (11/10/2026)",
+   "o": "Gujarat Govt",
+   "s": "now",
+   "b": "any",
+   "p": "",
+   "fl": "",
+   "fs": "Auto-detected from public feed – verify on OJAS",
+   "ed": "",
+   "et": "Posted Tue, 13 Oct 2026",
+   "sy": "See official notification",
+   "l": "https://www.marugujarat.in/2026/10/smc-clerk-question-paper/"
+  },
   {
    "n": "CRPF Sports Quota Recruitment 2026: Apply Online for 521 Havaldar & Constable Posts",
    "o": "Gujarat Govt",
@@ -613,45 +652,6 @@
    "l": "https://www.marugujarat.in/2026/10/rozgaar-bharti-melo-13-10-2026-apply-now-for-various-posts/"
   },
   {
-   "n": "Naval Dockyard Mumbai Apprentice Recruitment 2026: Apply Online for 283 Posts",
-   "o": "Gujarat Govt",
-   "s": "now",
-   "b": "any",
-   "p": "283",
-   "fl": "",
-   "fs": "Auto-detected from public feed – verify on OJAS",
-   "ed": "",
-   "et": "Posted Fri, 09 Oct 2026",
-   "sy": "See official notification",
-   "l": "https://www.marugujarat.in/2026/10/naval-dockyard-mumbai-apprentice/"
-  },
-  {
-   "n": "Veer Narmad South Gujarat University (VNSGU) Professor of Practice Recruitment 2026-27",
-   "o": "Gujarat Govt",
-   "s": "now",
-   "b": "any",
-   "p": "",
-   "fl": "",
-   "fs": "Auto-detected from public feed – verify on OJAS",
-   "ed": "",
-   "et": "Posted Fri, 09 Oct 2026",
-   "sy": "See official notification",
-   "l": "https://www.marugujarat.in/2026/10/veer-narmad-south-gujarat-university-vnsgu-2/"
-  },
-  {
-   "n": "NTA CSIR UGC NET December 2026: Application Dates and Exam Schedule Released",
-   "o": "Gujarat Govt",
-   "s": "now",
-   "b": "any",
-   "p": "",
-   "fl": "",
-   "fs": "Auto-detected from public feed – verify on OJAS",
-   "ed": "",
-   "et": "Posted Fri, 09 Oct 2026",
-   "sy": "See official notification",
-   "l": "https://www.marugujarat.in/2026/10/nta-csir-ugc-net-december-2026-application-exam-dates/"
-  },
-  {
    "n": "GSSSB Laboratory Assistant Class-3 CBRT Exam Dates Announced 2026",
    "o": "GSSSB",
    "s": "now",
@@ -1261,19 +1261,6 @@
    "et": "Posted Sun, 07 Jun 2026",
    "sy": "See official notification",
    "l": "https://www.marugujarat.in/2026/06/gsssb-additional-assistant-engineer-recruitment-2026/"
-  },
-  {
-   "n": "GSSSB Librarian Recruitment 2026: Apply Online for Librarian (Class-3) Post",
-   "o": "GSSSB",
-   "s": "now",
-   "b": "any",
-   "p": "",
-   "fl": "",
-   "fs": "Auto-detected from public feed – verify on OJAS",
-   "ed": "",
-   "et": "Posted Sun, 07 Jun 2026",
-   "sy": "See official notification",
-   "l": "https://www.marugujarat.in/2026/06/gsssb-librarian-recruitment-2026/"
   },
   {
    "n": "GPSC Recruitment 2026: Apply Online for 26 Various Class 1 & 2 Posts (Advt 42/2026-27 to 56/2026-27)",
@@ -2576,6 +2563,19 @@
    "l": "https://www.marugujarat.in/2022/06/trb-psi-wireless-technical-operator/"
   },
   {
+   "n": "NTA CSIR UGC NET December 2026: Application Dates and Exam Schedule Released",
+   "o": "Gujarat Govt",
+   "s": "now",
+   "b": "any",
+   "p": "",
+   "fl": "",
+   "fs": "Auto-detected from public feed – verify on OJAS",
+   "ed": "",
+   "et": "Posted Fri, 09 Oct 2026",
+   "sy": "See official notification",
+   "l": "https://www.marugujarat.in/2026/10/nta-csir-ugc-net-december-2026-application-exam-dates/"
+  },
+  {
    "n": "Bhavnagar Mahanagar Palika (BMC) Garden Superintendent Recruitment 2026",
    "o": "Gujarat Govt",
    "s": "now",
@@ -2665,19 +2665,6 @@
    "et": "Posted Mon, 05 Oct 2026",
    "sy": "See official notification",
    "l": "https://www.marugujarat.in/2026/10/vjspl-officer-recruitment/"
-  },
-  {
-   "n": "Gujarat Metro Rail Corporation (GMRC) Limited Land Acquisition & R&R Recruitment 2026",
-   "o": "Gujarat Govt",
-   "s": "now",
-   "b": "any",
-   "p": "",
-   "fl": "",
-   "fs": "Auto-detected from public feed – verify on OJAS",
-   "ed": "",
-   "et": "Posted Mon, 05 Oct 2026",
-   "sy": "See official notification",
-   "l": "https://www.marugujarat.in/2026/10/gmrc-land-acquisition-r-and-r-recruitment-2026/"
   },
   {
    "n": "Bhavnagar Municipal Corporation (BMC) Call Letter & Exam Date 2026 for Various Posts",
@@ -3096,17 +3083,17 @@
    "l": "https://www.marugujarat.in/2026/09/gmdc-apprentice-recruitment/"
   },
   {
-   "n": "Narmada Clean Tech Recruitment 2026: Apply for Analyst & Shift Incharge Posts",
+   "n": "Naval Dockyard Mumbai Apprentice Recruitment 2026: Apply Online for 283 Posts",
    "o": "Gujarat Govt",
    "s": "now",
    "b": "any",
-   "p": "",
+   "p": "283",
    "fl": "",
    "fs": "Auto-detected from public feed – verify on OJAS",
    "ed": "",
-   "et": "Posted Wed, 16 Sep 2026",
+   "et": "Posted Fri, 09 Oct 2026",
    "sy": "See official notification",
-   "l": "https://www.marugujarat.in/2026/09/narmada-clean-tech/"
+   "l": "https://www.marugujarat.in/2026/10/naval-dockyard-mumbai-apprentice/"
   },
   {
    "n": "Mehmadabad Nagarpalika City Manager (UWM) Walk-in Interview 2026",
@@ -3486,19 +3473,6 @@
    "l": "https://www.marugujarat.in/2026/08/ahmedabad-municipal-corporation-amc-exam-date-2026/"
   },
   {
-   "n": "GAIL (India) Limited Recruitment 2026 for Retired Gujarat Revenue Department Employees",
-   "o": "GPSSB",
-   "s": "now",
-   "b": "any",
-   "p": "",
-   "fl": "",
-   "fs": "Auto-detected from public feed – verify on OJAS",
-   "ed": "",
-   "et": "Posted Sat, 22 Aug 2026",
-   "sy": "See official notification",
-   "l": "https://www.marugujarat.in/2026/08/gail-india-walk-in-interview-retired-gujarat-revenue-dept-2026/"
-  },
-  {
    "n": "AYJNISHD(D) Recruitment 2026: Apply for Assistant Professor, Lecturer & Other Contractual Posts",
    "o": "Gujarat Govt",
    "s": "now",
@@ -3720,17 +3694,17 @@
    "l": "https://www.marugujarat.in/2026/09/echs-polyclinics-vadodara-surat-staff-recruitment-2026/"
   },
   {
-   "n": "Ahmedabad District Cooperative Milk Producers’ Union Ltd. (Uttam Dairy) Walk-in Interview 2026",
-   "o": "Gujarat Govt",
+   "n": "GAIL (India) Limited Recruitment 2026 for Retired Gujarat Revenue Department Employees",
+   "o": "GPSSB",
    "s": "now",
    "b": "any",
    "p": "",
    "fl": "",
    "fs": "Auto-detected from public feed – verify on OJAS",
    "ed": "",
-   "et": "Posted Thu, 27 Aug 2026",
+   "et": "Posted Sat, 22 Aug 2026",
    "sy": "See official notification",
-   "l": "https://www.marugujarat.in/2026/08/uttam-dairy-walk-in-interview-2026/"
+   "l": "https://www.marugujarat.in/2026/08/gail-india-walk-in-interview-retired-gujarat-revenue-dept-2026/"
   },
   {
    "n": "Uttar-Poorva Gujarat Seva Kendali Mandal Pilvai Junior Clerk (PH) Recruitment 2026",
@@ -4121,19 +4095,6 @@
    "et": "Posted Wed, 12 Aug 2026",
    "sy": "See official notification",
    "l": "https://www.marugujarat.in/2026/08/rajkot-rural-traffic-brigade-recruitment-2026/"
-  },
-  {
-   "n": "Sabarkantha Police Traffic Brigade Volunteer Recruitment 2026: Apply for 25 Posts",
-   "o": "Gujarat Govt",
-   "s": "now",
-   "b": "any",
-   "p": "25",
-   "fl": "",
-   "fs": "Auto-detected from public feed – verify on OJAS",
-   "ed": "",
-   "et": "Posted Tue, 11 Aug 2026",
-   "sy": "See official notification",
-   "l": "https://www.marugujarat.in/2026/08/sabarkantha-traffic-brigade-recruitment-2026/"
   },
   {
    "n": "Shri Govind Guru University (SGGU) Recruitment 2026: Professor & Associate Professor Posts",
@@ -4760,19 +4721,6 @@
    "l": "https://www.marugujarat.in/2026/02/gprb-psi-physical-test-pet-pst-result/"
   },
   {
-   "n": "GPRB Unarmed PSI Provisional Selection List & Waiting List 2026 Out (Advt. No. GPRB/202324/1)",
-   "o": "GPRB",
-   "s": "old",
-   "b": "any",
-   "p": "",
-   "fl": "",
-   "fs": "Auto-detected from public feed – verify on OJAS",
-   "ed": "",
-   "et": "Posted Mon, 23 Feb 2026",
-   "sy": "See official notification",
-   "l": "https://www.marugujarat.in/2026/02/gprb-unarmed-psi-provisional-selection-waiting-list-2026/"
-  },
-  {
    "n": "MGVCL Vidyut Sahayak Junior Engineer (Electrical) 1st Tier Exam Schedule 2026 Announced",
    "o": "GUVNL group",
    "s": "now",
@@ -4940,6 +4888,19 @@
    "et": "Posted Thu, 27 Aug 2026",
    "sy": "See official notification",
    "l": "https://www.marugujarat.in/2026/08/gujarat-high-court-process-server-bailiff-waitlist-posting-2026/"
+  },
+  {
+   "n": "Ahmedabad District Cooperative Milk Producers’ Union Ltd. (Uttam Dairy) Walk-in Interview 2026",
+   "o": "Gujarat Govt",
+   "s": "now",
+   "b": "any",
+   "p": "",
+   "fl": "",
+   "fs": "Auto-detected from public feed – verify on OJAS",
+   "ed": "",
+   "et": "Posted Thu, 27 Aug 2026",
+   "sy": "See official notification",
+   "l": "https://www.marugujarat.in/2026/08/uttam-dairy-walk-in-interview-2026/"
   },
   {
    "n": "Gujarat WCD Department Legal Consultant Recruitment 2026",
