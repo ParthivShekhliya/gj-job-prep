@@ -1,6 +1,19 @@
 {
- "updated": "2026-10-15T05:22:35.110113+00:00",
+ "updated": "2026-10-15T10:06:57.647154+00:00",
  "exams": [
+  {
+   "n": "Gujarat Gyan Sahayak Bharti 2026: Apply Online for Primary Teacher Posts",
+   "o": "Gujarat Govt",
+   "s": "now",
+   "b": "any",
+   "p": "",
+   "fl": "",
+   "fs": "Auto-detected from public feed – verify on OJAS",
+   "ed": "",
+   "et": "Posted Thu, 15 Oct 2026",
+   "sy": "See official notification",
+   "l": "https://www.marugujarat.in/2026/10/gujarat-gyan-sahayak-bharti/"
+  },
   {
    "n": "Ahmedabad Municipal Corporation (AMC) Re-Examination for Asst Estate Officer & Asst Sub Inspector Cancelled",
    "o": "Gujarat Govt",
@@ -78,6 +91,19 @@
    "et": "Posted Thu, 15 Oct 2026",
    "sy": "See official notification",
    "l": "https://www.marugujarat.in/2026/10/shree-ak-doshi-mahila-college/"
+  },
+  {
+   "n": "Kadodara Nagarpalika Walk-in Interview for City Manager Posts",
+   "o": "Gujarat Govt",
+   "s": "now",
+   "b": "any",
+   "p": "",
+   "fl": "",
+   "fs": "Auto-detected from public feed – verify on OJAS",
+   "ed": "",
+   "et": "Posted Thu, 15 Oct 2026",
+   "sy": "See official notification",
+   "l": "https://www.marugujarat.in/2026/10/kadodara-nagarpalika/"
   },
   {
    "n": "CSIR-CSMCRI Recruitment 2026: Apply for Project Scientist and Project Associate Posts",
@@ -624,32 +650,6 @@
    "et": "Posted Mon, 12 Oct 2026",
    "sy": "See official notification",
    "l": "https://www.marugujarat.in/2026/10/gujarat-vidyasahayak/"
-  },
-  {
-   "n": "BEML Executive Recruitment 2026: Apply Online for 20 Assistant Manager & Engineer Posts",
-   "o": "Gujarat Govt",
-   "s": "now",
-   "b": "any",
-   "p": "",
-   "fl": "",
-   "fs": "Auto-detected from public feed – verify on OJAS",
-   "ed": "",
-   "et": "Posted Sun, 11 Oct 2026",
-   "sy": "See official notification",
-   "l": "https://www.marugujarat.in/2026/10/beml-executive-recruitment-2026/"
-  },
-  {
-   "n": "IIT Gandhinagar Post-Doctoral Fellow Recruitment 2026 for Civil Engineering Project",
-   "o": "Gujarat Govt",
-   "s": "now",
-   "b": "ci",
-   "p": "",
-   "fl": "",
-   "fs": "Auto-detected from public feed – verify on OJAS",
-   "ed": "",
-   "et": "Posted Sun, 11 Oct 2026",
-   "sy": "See official notification",
-   "l": "https://www.marugujarat.in/2026/10/iit-gandhinagar-2/"
   },
   {
    "n": "GSSSB Municipal Sanitary Inspector Exam Pattern and PwD Guidelines Update (Advt. 349/202526)",
@@ -2576,6 +2576,19 @@
    "l": "https://www.marugujarat.in/2022/06/trb-psi-wireless-technical-operator/"
   },
   {
+   "n": "BEML Executive Recruitment 2026: Apply Online for 20 Assistant Manager & Engineer Posts",
+   "o": "Gujarat Govt",
+   "s": "now",
+   "b": "any",
+   "p": "",
+   "fl": "",
+   "fs": "Auto-detected from public feed – verify on OJAS",
+   "ed": "",
+   "et": "Posted Sun, 11 Oct 2026",
+   "sy": "See official notification",
+   "l": "https://www.marugujarat.in/2026/10/beml-executive-recruitment-2026/"
+  },
+  {
    "n": "The Bhuj Mercantile Co-Operative Bank Ltd. Recruitment 2026",
    "o": "Gujarat Govt",
    "s": "now",
@@ -2847,6 +2860,19 @@
    "et": "Posted Fri, 01 Dec 2023",
    "sy": "See official notification",
    "l": "https://www.marugujarat.in/2023/12/iit-gandhinagar-recruitment-63/"
+  },
+  {
+   "n": "IIT Gandhinagar Post-Doctoral Fellow Recruitment 2026 for Civil Engineering Project",
+   "o": "Gujarat Govt",
+   "s": "now",
+   "b": "ci",
+   "p": "",
+   "fl": "",
+   "fs": "Auto-detected from public feed – verify on OJAS",
+   "ed": "",
+   "et": "Posted Sun, 11 Oct 2026",
+   "sy": "See official notification",
+   "l": "https://www.marugujarat.in/2026/10/iit-gandhinagar-2/"
   },
   {
    "n": "Gujarat Metro Rail Corporation (GMRC) Operations & Maintenance Recruitment 2026",
@@ -3135,19 +3161,6 @@
    "l": "https://www.marugujarat.in/2026/10/upleta-municipality-city-manager/"
   },
   {
-   "n": "Talala Nagarpalika City Manager Recruitment 2026: Apply for Various Posts",
-   "o": "Gujarat Govt",
-   "s": "now",
-   "b": "any",
-   "p": "",
-   "fl": "",
-   "fs": "Auto-detected from public feed – verify on OJAS",
-   "ed": "",
-   "et": "Posted Mon, 05 Oct 2026",
-   "sy": "See official notification",
-   "l": "https://www.marugujarat.in/2026/10/talala-nagarpalika-city-manager/"
-  },
-  {
    "n": "GSRTC Mechanical Side Helper Provisional Waiting List & Self-Selection Notice",
    "o": "GSRTC",
    "s": "now",
@@ -3161,7 +3174,7 @@
    "l": "https://www.marugujarat.in/2026/10/gsrtc-mechanical-side-helper/"
   },
   {
-   "n": "Dholka Nagarpalika City Manager (UWM) Recruitment 2026 for 11-Month Contract",
+   "n": "Talala Nagarpalika City Manager Recruitment 2026: Apply for Various Posts",
    "o": "Gujarat Govt",
    "s": "now",
    "b": "any",
@@ -3169,9 +3182,9 @@
    "fl": "",
    "fs": "Auto-detected from public feed – verify on OJAS",
    "ed": "",
-   "et": "Posted Sun, 04 Oct 2026",
+   "et": "Posted Mon, 05 Oct 2026",
    "sy": "See official notification",
-   "l": "https://www.marugujarat.in/2026/10/dholka-nagarpalika-city-manager/"
+   "l": "https://www.marugujarat.in/2026/10/talala-nagarpalika-city-manager/"
   },
   {
    "n": "Indian Oil Corporation Ltd (IOCL) Apprenticeship Recruitment 2026-27",
@@ -4199,19 +4212,6 @@
    "et": "Posted Sun, 13 Sep 2026",
    "sy": "See official notification",
    "l": "https://www.marugujarat.in/2026/09/vidhya-sahayak-recruitment/"
-  },
-  {
-   "n": "PM SHRI Kendriya Vidyalaya No.2 Army Vadodara Walk-in Interview 2026 for Teachers",
-   "o": "Gujarat Govt",
-   "s": "now",
-   "b": "any",
-   "p": "",
-   "fl": "",
-   "fs": "Auto-detected from public feed – verify on OJAS",
-   "ed": "",
-   "et": "Posted Thu, 10 Sep 2026",
-   "sy": "See official notification",
-   "l": "https://www.marugujarat.in/2026/09/pm-shri-kendriya-vidyalaya-vadodara-walk-in-interview-2026/"
   },
   {
    "n": "Central Silk Board Sericulture Assistant Recruitment 2026",
