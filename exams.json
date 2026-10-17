@@ -1,6 +1,45 @@
 {
- "updated": "2026-10-17T04:52:39.084550+00:00",
+ "updated": "2026-10-17T08:55:39.366290+00:00",
  "exams": [
+  {
+   "n": "Central Warehousing Corporation (CWC) Assistant Manager & Junior Executive Recruitment 2026",
+   "o": "Gujarat Govt",
+   "s": "now",
+   "b": "any",
+   "p": "",
+   "fl": "",
+   "fs": "Auto-detected from public feed – verify on OJAS",
+   "ed": "",
+   "et": "Posted Sat, 17 Oct 2026",
+   "sy": "See official notification",
+   "l": "https://www.marugujarat.in/2026/10/cwc-assistant-manager-junior-executive-recruitment-2026/"
+  },
+  {
+   "n": "South Indian Bank Junior Officer (Operations) Recruitment 2026",
+   "o": "Gujarat Govt",
+   "s": "now",
+   "b": "any",
+   "p": "",
+   "fl": "",
+   "fs": "Auto-detected from public feed – verify on OJAS",
+   "ed": "",
+   "et": "Posted Sat, 17 Oct 2026",
+   "sy": "See official notification",
+   "l": "https://www.marugujarat.in/2026/10/south-indian-bank-junior-officer/"
+  },
+  {
+   "n": "IREL India Limited Tradesman Trainee Recruitment 2026 for 131 Posts",
+   "o": "Gujarat Govt",
+   "s": "now",
+   "b": "any",
+   "p": "131",
+   "fl": "",
+   "fs": "Auto-detected from public feed – verify on OJAS",
+   "ed": "",
+   "et": "Posted Sat, 17 Oct 2026",
+   "sy": "See official notification",
+   "l": "https://www.marugujarat.in/2026/10/irel-india-limited-tradesman-trainee/"
+  },
   {
    "n": "SBI PO Recruitment 2026 & Mains Exam Result Out",
    "o": "Gujarat Govt",
@@ -611,45 +650,6 @@
    "et": "Posted Mon, 12 Oct 2026",
    "sy": "See official notification",
    "l": "https://www.marugujarat.in/2026/10/ssc-gd-constable-result-2026/"
-  },
-  {
-   "n": "India Post GDS Result 2026 OUT: Download State-wise 1st Merit List PDF",
-   "o": "Gujarat Govt",
-   "s": "old",
-   "b": "any",
-   "p": "",
-   "fl": "",
-   "fs": "Auto-detected from public feed – verify on OJAS",
-   "ed": "",
-   "et": "Posted Mon, 12 Oct 2026",
-   "sy": "See official notification",
-   "l": "https://www.marugujarat.in/2026/10/india-post-gds-result-2026-out-download-state-wise-1st-merit-list-pdf/"
-  },
-  {
-   "n": "IIT Gandhinagar Project Engineer Recruitment 2026 for Civil Engineering",
-   "o": "Gujarat Govt",
-   "s": "now",
-   "b": "ci",
-   "p": "",
-   "fl": "",
-   "fs": "Auto-detected from public feed – verify on OJAS",
-   "ed": "",
-   "et": "Posted Mon, 12 Oct 2026",
-   "sy": "See official notification",
-   "l": "https://www.marugujarat.in/2026/10/iit-gandhinagar-3/"
-  },
-  {
-   "n": "Limbdi Nagarpalika Surendranagar City Engineer (UWM) Recruitment 2026",
-   "o": "Gujarat Govt",
-   "s": "now",
-   "b": "any",
-   "p": "",
-   "fl": "",
-   "fs": "Auto-detected from public feed – verify on OJAS",
-   "ed": "",
-   "et": "Posted Mon, 12 Oct 2026",
-   "sy": "See official notification",
-   "l": "https://www.marugujarat.in/2026/10/limbdi-nagarpalika-city-engineer/"
   },
   {
    "n": "GSSSB Municipal Sanitary Inspector Exam Pattern and PwD Guidelines Update (Advt. 349/202526)",
@@ -2550,30 +2550,17 @@
    "l": "https://www.marugujarat.in/2022/06/trb-psi-wireless-technical-operator/"
   },
   {
-   "n": "Dharmsinh Desai University (DDU) Assistant Professor Recruitment 2026 for Computer Engineering",
+   "n": "India Post GDS Result 2026 OUT: Download State-wise 1st Merit List PDF",
    "o": "Gujarat Govt",
-   "s": "now",
-   "b": "cs",
+   "s": "old",
+   "b": "any",
    "p": "",
    "fl": "",
    "fs": "Auto-detected from public feed – verify on OJAS",
    "ed": "",
    "et": "Posted Mon, 12 Oct 2026",
    "sy": "See official notification",
-   "l": "https://www.marugujarat.in/2026/10/dharmsinh-desai-university-ddu-2/"
-  },
-  {
-   "n": "Bharat Electronics Limited (BEL) Project Engineer-I Recruitment 2026",
-   "o": "Gujarat Govt",
-   "s": "now",
-   "b": "ec",
-   "p": "",
-   "fl": "",
-   "fs": "Auto-detected from public feed – verify on OJAS",
-   "ed": "",
-   "et": "Posted Mon, 12 Oct 2026",
-   "sy": "See official notification",
-   "l": "https://www.marugujarat.in/2026/10/bharat-electronics-limited-bel-2/"
+   "l": "https://www.marugujarat.in/2026/10/india-post-gds-result-2026-out-download-state-wise-1st-merit-list-pdf/"
   },
   {
    "n": "Bhavnagar Municipal Corporation (BMC) Call Letter & Exam Date 2026 for Various Posts",
@@ -2797,6 +2784,32 @@
    "l": "https://www.marugujarat.in/2023/12/iit-gandhinagar-recruitment-63/"
   },
   {
+   "n": "IIT Gandhinagar Project Engineer Recruitment 2026 for Civil Engineering",
+   "o": "Gujarat Govt",
+   "s": "now",
+   "b": "ci",
+   "p": "",
+   "fl": "",
+   "fs": "Auto-detected from public feed – verify on OJAS",
+   "ed": "",
+   "et": "Posted Mon, 12 Oct 2026",
+   "sy": "See official notification",
+   "l": "https://www.marugujarat.in/2026/10/iit-gandhinagar-3/"
+  },
+  {
+   "n": "Limbdi Nagarpalika Surendranagar City Engineer (UWM) Recruitment 2026",
+   "o": "Gujarat Govt",
+   "s": "now",
+   "b": "any",
+   "p": "",
+   "fl": "",
+   "fs": "Auto-detected from public feed – verify on OJAS",
+   "ed": "",
+   "et": "Posted Mon, 12 Oct 2026",
+   "sy": "See official notification",
+   "l": "https://www.marugujarat.in/2026/10/limbdi-nagarpalika-city-engineer/"
+  },
+  {
    "n": "Himatnagar Nagarpalika Walk-in Interview for City Manager (UWM) Post 2026",
    "o": "Gujarat Govt",
    "s": "now",
@@ -2810,17 +2823,17 @@
    "l": "https://www.marugujarat.in/2026/10/himatnagar-nagarpalika/"
   },
   {
-   "n": "CSIR-CSMCRI Recruitment 2026: Project Associate & Assistant Posts",
+   "n": "Dharmsinh Desai University (DDU) Assistant Professor Recruitment 2026 for Computer Engineering",
    "o": "Gujarat Govt",
    "s": "now",
-   "b": "any",
+   "b": "cs",
    "p": "",
    "fl": "",
    "fs": "Auto-detected from public feed – verify on OJAS",
    "ed": "",
    "et": "Posted Mon, 12 Oct 2026",
    "sy": "See official notification",
-   "l": "https://www.marugujarat.in/2026/10/csir-csmcri-recruitment-16/"
+   "l": "https://www.marugujarat.in/2026/10/dharmsinh-desai-university-ddu-2/"
   },
   {
    "n": "BEML Executive Recruitment 2026: Apply Online for 20 Assistant Manager & Engineer Posts",
@@ -2979,19 +2992,6 @@
    "l": "https://www.marugujarat.in/2026/09/bhakta-kavi-narsinh-mehta/"
   },
   {
-   "n": "Rajkot Rajpath Limited Recruitment 2026: Apply Offline for 08 Posts",
-   "o": "Gujarat Govt",
-   "s": "now",
-   "b": "any",
-   "p": "08",
-   "fl": "",
-   "fs": "Auto-detected from public feed – verify on OJAS",
-   "ed": "",
-   "et": "Posted Tue, 22 Sep 2026",
-   "sy": "See official notification",
-   "l": "https://www.marugujarat.in/2026/09/rajkot-rajpath-limited-recruitment-2026/"
-  },
-  {
    "n": "IIT Gandhinagar Post-Doctoral Fellow Recruitment 2026 for Civil Engineering Project",
    "o": "Gujarat Govt",
    "s": "now",
@@ -3122,7 +3122,7 @@
    "l": "https://www.marugujarat.in/2026/10/thangadh-nagarpalika/"
   },
   {
-   "n": "Upleta Municipality City Manager Recruitment 2026",
+   "n": "CSIR-CSMCRI Recruitment 2026: Project Associate & Assistant Posts",
    "o": "Gujarat Govt",
    "s": "now",
    "b": "any",
@@ -3130,9 +3130,9 @@
    "fl": "",
    "fs": "Auto-detected from public feed – verify on OJAS",
    "ed": "",
-   "et": "Posted Tue, 06 Oct 2026",
+   "et": "Posted Mon, 12 Oct 2026",
    "sy": "See official notification",
-   "l": "https://www.marugujarat.in/2026/10/upleta-municipality-city-manager/"
+   "l": "https://www.marugujarat.in/2026/10/csir-csmcri-recruitment-16/"
   },
   {
    "n": "GSRTC Mechanical Side Helper Provisional Waiting List & Self-Selection Notice",
@@ -3146,6 +3146,19 @@
    "et": "Posted Wed, 07 Oct 2026",
    "sy": "See official notification",
    "l": "https://www.marugujarat.in/2026/10/gsrtc-mechanical-side-helper/"
+  },
+  {
+   "n": "Upleta Municipality City Manager Recruitment 2026",
+   "o": "Gujarat Govt",
+   "s": "now",
+   "b": "any",
+   "p": "",
+   "fl": "",
+   "fs": "Auto-detected from public feed – verify on OJAS",
+   "ed": "",
+   "et": "Posted Tue, 06 Oct 2026",
+   "sy": "See official notification",
+   "l": "https://www.marugujarat.in/2026/10/upleta-municipality-city-manager/"
   },
   {
    "n": "Indian Oil Corporation Ltd (IOCL) Apprenticeship Recruitment 2026-27",
@@ -3198,32 +3211,6 @@
    "et": "Posted Wed, 07 Oct 2026",
    "sy": "See official notification",
    "l": "https://www.marugujarat.in/2026/10/gerc-recruitment-2026/"
-  },
-  {
-   "n": "IN-SPACe Recruitment 2026: Apply Online for Consultant & Technical Assistant Posts",
-   "o": "Gujarat Govt",
-   "s": "now",
-   "b": "any",
-   "p": "",
-   "fl": "",
-   "fs": "Auto-detected from public feed – verify on OJAS",
-   "ed": "",
-   "et": "Posted Sun, 04 Oct 2026",
-   "sy": "See official notification",
-   "l": "https://www.marugujarat.in/2026/10/inspace-consultant-recruitment/"
-  },
-  {
-   "n": "GSOS SSC & HSC Exams November-December 2026 Registration by GSEB",
-   "o": "Gujarat Govt",
-   "s": "now",
-   "b": "any",
-   "p": "",
-   "fl": "",
-   "fs": "Auto-detected from public feed – verify on OJAS",
-   "ed": "",
-   "et": "Posted Sat, 03 Oct 2026",
-   "sy": "See official notification",
-   "l": "https://www.marugujarat.in/2026/10/gsos-ssc-hsc-exam-november-december-2026-registration/"
   },
   {
    "n": "Kathlal Nagarpalika Recruitment 2026: Walk-in Interview for Swachhta Marshal",
@@ -3302,6 +3289,19 @@
    "et": "Posted Tue, 29 Sep 2026",
    "sy": "See official notification",
    "l": "https://www.marugujarat.in/2026/09/gujarat-police-ex-servicemen/"
+  },
+  {
+   "n": "Rajkot Rajpath Limited Recruitment 2026: Apply Offline for 08 Posts",
+   "o": "Gujarat Govt",
+   "s": "now",
+   "b": "any",
+   "p": "08",
+   "fl": "",
+   "fs": "Auto-detected from public feed – verify on OJAS",
+   "ed": "",
+   "et": "Posted Tue, 22 Sep 2026",
+   "sy": "See official notification",
+   "l": "https://www.marugujarat.in/2026/09/rajkot-rajpath-limited-recruitment-2026/"
   },
   {
    "n": "Gujarat State Lion Conservation Society Live-Scales Inspector-02 Recruitment 2026",
